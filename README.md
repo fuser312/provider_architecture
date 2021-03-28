@@ -17,3 +17,14 @@ samples, guidance on mobile development, and a full API reference.
 
 #### List of Posts
 <img src="https://i.ibb.co/mcwqPhK/Screenshot-20210328-231407.jpg" height="450" />
+
+#### Single Post
+<img src="https://i.ibb.co/L1mrVzJ/Screenshot-20210328-231537.jpg" height="450" />
+
+#### Login Page
+<img src="https://i.ibb.co/j9Kw7Zb/Screenshot-20210328-231605.jpg" height="450" />
+
+#### Loading screen
+<img src="https://i.ibb.co/LNxyY7S/Screenshot-20210328-231611.jpg" height="450" />
+
+
