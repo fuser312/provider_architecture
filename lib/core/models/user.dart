@@ -1,25 +1,23 @@
+import 'package:provider_architecture/core/models/post.dart';
+
 class User {
-  int id;
-  String name;
-  String username;
-  User({this.id, this.name, this.username});
+  String token;
+  String email;
+  List<Post> userPosts;
+  User({this.token, this.email, this.userPosts});
 
   User.initial()
-      : id = 0,
-        name = '',
-        username = '';
+      : token = "",
+        email = '';
 
   User.fromJson(Map<String, dynamic> json) {
-    id = json['id'];
-    name = json['name'];
-    username = json['username'];
+    token = json['token'];
+
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['id'] = this.id;
-    data['name'] = this.name;
-    data['username'] = this.username;
+    data['token'] = this.token;
     return data;
   }
 }
